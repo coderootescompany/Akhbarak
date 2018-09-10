@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Akhbarak</string>
+    <string name="title"><![CDATA[ <font color=#000000 size=\'28\'><b>%1$s </b></font> <font color=#7e7e7e size=\'18\'>اضاف %2$s صور جديدة</font>]]></string>
+    <string name="share">مشاركة</string>
+    <string name="like">إعجاب</string>
+    <string name="comment">تعليق</string>
+    <string name="readless">قراءة اقل</string>
+    <string name="readmore">قراءة المزيد </string>
+    <string name="title_activity_home">صفحة الاخبار الرئيسية</string>
+    <string name="place">مكان</string>
+    <string name="video">فيديو</string>
+    <string name="image">صورة</string>
+    <string name="cancel">إلغاء</string>
+    <string name="open_permission">السماح</string>
+    <string name="permission_text_cam">من فضلك قم باعطاء اذن لتحديد الصور من الهاتف</string>
+    <string name="notselect">لم يتم تحديد الصور</string>
+    <string name="error">حدث خطأ في تحميل الصور حاول مره اخري</string>
+    <string name="select_location">تحديد الموقع</string>
+    <string name="cannot_fetch_address">غير قادر علي ايجاد العنوان</string>
+    <string name="permission_text">من فضلك قم باعطاء اذن تحديد الموقع</string>
+    <!--<string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCts5S617bj72nR-MnhPtvLfW9gYuCDN6Q</string>-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA8rHVA4XnAom886Y5Bk3TDo-oz0Pnvwk4</string>
+    <string name="title_activity_create_post">إضافة خبر جديد</string>
+    <string name="title_activity_settings">صفحة الاعدادات</string>
+    <string name="title_activity_hashtags">صفحة الهاشتاجات</string>
+    <string name="title_activity_login">صفحة تسجيل الدخول</string>
+    <string name="title_activity_search">صفحة البحث</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_register1">صفحة تسجيل عضوية</string>
+    <string name="title_activity_register2">إستكمال البيانات</string>
+    <string name="title_activity_details">تفاصيل الخبر</string>
+</resources>

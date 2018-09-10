@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1097070441866",
+    "firebase_url": "https://akhbare-214719.firebaseio.com",
+    "project_id": "akhbare-214719",
+    "storage_bucket": "akhbare-214719.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097070441866:android:4108d08dddcc1493",
+        "android_client_info": {
+          "package_name": "com.osamaomar.akhbarak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097070441866-lare1bjbb5hv4bn0842g9b55morp045a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB21Jcl_njchK-rPoJoFUTsdaqIcZKEdI8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

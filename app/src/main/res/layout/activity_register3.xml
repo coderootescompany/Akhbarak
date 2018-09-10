@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تسجيل عضوية"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:hint="الاسم الثلاثي"
+                android:textColorHint="@color/black"
+                android:background="@drawable/textadded"/>
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:hint="الاسم الثلاثي"
+                android:textColorHint="@color/black"
+                android:background="@drawable/textadded"/>
+            <EditText
+                android:id="@+id/mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:padding="10dp"
+                android:hint="الايميل(اختياري)"
+                android:textColorHint="@color/black"
+                android:background="@drawable/linear_public_background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <TextView
+                    android:id="@+id/next"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:layout_weight="3"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:text="التالي"
+                    android:gravity="center"
+                    android:background="@drawable/next_background"
+                    />
+
+                <TextView
+                    android:id="@+id/back"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="2"
+                    android:padding="10dp"
+                    android:text="الرجوع"
+                    android:textSize="14dp"
+                    android:textColor="@color/textcolor"
+                    android:gravity="center"
+                    android:drawableEnd="@drawable/left_arrow"
+                    android:background="@drawable/linear_background"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

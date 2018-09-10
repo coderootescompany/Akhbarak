@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.osamaomar.akhbarak">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <activity
+            android:name=".Activities.SplashScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Activities.PostDetailsActivity"
+            android:label="@string/title_activity_details"/>
+
+        <activity
+            android:name=".Activities.Register.Register1Activity"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:label="@string/title_activity_register1"/>
+
+        <activity android:name=".Activities.Register.Register2Activity"
+            android:label="@string/title_activity_register2"/>
+        <activity android:name=".Activities.Register.Register3Activity"
+            android:label="@string/title_activity_register2"/>
+        <activity android:name=".Activities.Register.Register4Activity"
+            android:label="@string/title_activity_register2"/>
+        <activity android:name=".Activities.Register.Register5Activity"
+            android:label="@string/title_activity_register2"/>
+        <activity android:name=".Activities.Register.Register6Activity"
+            android:label="@string/title_activity_register2"/>
+        <activity android:name=".Activities.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            />
+
+        <activity android:name=".Activities.SettingActivity"
+            android:label="@string/title_activity_settings"/>
+
+        <activity android:name=".Activities.HashtagsActivity"
+            android:label="@string/title_activity_hashtags"/>
+
+        <activity android:name=".Activities.SearchActivity"
+            android:label="@string/title_activity_search"/>
+
+        <activity
+            android:name=".Activities.CreatePostActivity"
+            android:label="@string/title_activity_create_post"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.MapActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".mappActivity" />
+
+        <activity android:name=".MainActivity"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+
+        </activity>
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+
+        <activity
+            android:name=".MapsActivity2"
+            android:label="@string/title_activity_maps2"/>
+
+    </application>
+
+</manifest>

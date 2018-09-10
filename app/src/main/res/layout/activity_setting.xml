@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context=".Activities.SettingActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/userone"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="9dp"
+                android:gravity="center"
+                android:fontFamily="@font/cairo"
+                android:textSize="16dp"
+                android:text="الاسم بالكامل"/>
+
+            <TextView
+                android:id="@+id/postnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:padding="9dp"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:fontFamily="@font/cairo"
+                android:textColor="@color/gray"
+                android:text="عدد المنشورات : 3"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/gray"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:weightSum="5"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="اشعارات عاجلة"
+                    android:padding="5dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="right"
+                    android:fontFamily="@font/cairo"
+                    android:layout_marginRight="25dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:checked="true"
+                    android:text="" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/gray"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="5"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="قائمة المحظورات "
+                    android:padding="5dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="25dp"
+                    android:fontFamily="@font/cairo"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="4.5"
+                    android:src="@drawable/ic_block" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/gray"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="5"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="شروط الاستخدام"
+                    android:padding="5dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="25dp"
+                    android:fontFamily="@font/cairo"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="4.5"
+                    android:src="@drawable/ic_how_use" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/gray"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="5"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="من نحن"
+                    android:padding="5dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="25dp"
+                    android:fontFamily="@font/cairo"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="4.7"
+                    android:src="@drawable/ic_us" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/gray"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="5"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="تسجيل خروج"
+                    android:padding="5dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="right"
+                    android:fontFamily="@font/cairo"
+                    android:layout_marginRight="25dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="4.5"
+                    android:src="@drawable/ic_log_out" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
